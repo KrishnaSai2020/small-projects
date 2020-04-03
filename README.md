@@ -4,6 +4,7 @@ Just full small simple python projects I've done. A lot of them were done as I w
 So far in here the projects are as follows:
 
 . pdf file merger
+
 . image format conerverter
 
 Notes:
