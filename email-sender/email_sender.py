@@ -12,9 +12,8 @@ email['subject'] = 'this is the subject of email'
 email.set_content(html.substitute({'name':'tintin'}),'html')
 
 with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
-	smtp.ehlo()
-	smtp.starttls()
-	smtp.login('dummy54366@gmail.com', 'Fizzes27!')
-	smtp.send_message(email)
-	print('all good')
-
+    smtp.ehlo()
+    smtp.starttls()
+    smtp.login('dummy54366@gmail.com', 'Fizzes27!')
+    smtp.send_message(email)
+    print('all good')
