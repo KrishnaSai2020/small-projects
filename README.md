@@ -7,5 +7,7 @@ So far in here the projects are as follows:
 
 . image format conerverter
 
+. pdf file watermarker
+
 Notes:
   When using the image format converter you can easily change it to convert different file formats.
